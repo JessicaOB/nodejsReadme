@@ -24,7 +24,7 @@
   To finish setting up, first clone this repository, then open it in vscode. From within vscode open the terminal and run npm install to insall the required packages for using the application. 
   
 ## Usage
-  Click the link below for a demonstration video showing how to use this application:
+  Click the link for a demonstration video showing how to use this application:
   [Demonstration Video](https://watch.screencastify.com/v/4ZI3UmQeiplTMibPUCPp)
   
 ## Contributing
