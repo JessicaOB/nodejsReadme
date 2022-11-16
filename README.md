@@ -1,8 +1,8 @@
-# Readme Generator
+# nodejsReadme
 
   [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg?style=plastic)](https://opensource.org/licenses/MIT)
 
-  ##Table of Contents
+## Table of Contents
   -[Description](#description)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -11,25 +11,25 @@
     - [Tests](#tests)
     - [Questions](#questions)
 
-  ## Description
-  Hello
+## Description
+  A readme file generator
   
-  ##Installation
-  Do it
+## Installation
+  install
   
-  ##Usage
-  Use it
+## Usage
+  node index.js
   
-  ##Constributing
-  Me
+## Contributing
+  Jessica Oboh
   
-  ## License
+## License
       MIT license. Click the license badge at the top for license details.
   
-  ##Tests
-  Nope
+## Tests
+  no
   
-  ##Questions
+## Questions
   Contact information for any questions regarding this project:
   Github - https://github.com/JessicaOB
   Email - jessb216@gmail.com

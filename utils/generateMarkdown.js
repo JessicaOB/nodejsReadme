@@ -1,10 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { 
+function renderLicenseBadge(license) {
   if (license === "NONE") {
     return ``;
   }
-  else if (license === "OTHER"){
+  else if (license === "OTHER") {
     return ``
   }
   else {
@@ -14,8 +14,8 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { 
-  switch (license){
+function renderLicenseLink(license) {
+  switch (license) {
     case "Apache 2.0":
       return `https://opensource.org/licenses/Apache-2.0`;
     case "MIT":
@@ -26,7 +26,7 @@ function renderLicenseLink(license) {
       return `https://opensource.org/licenses/BSD-3-Clause`;
     case "OTHER":
     case "NONE":
-        return ``;
+      return ``;
     default:
       break;
   }
@@ -34,21 +34,21 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { 
+function renderLicenseSection(license) {
   if (license === "NONE") {
     return ``;
-    }
-    else if (license === "OTHER") {
-      return `## License
+  }
+  else if (license === "OTHER") {
+    return `## License
       Enter information regarding the license you used here.`
-    }
-    else {
-      return `## License
+  }
+  else {
+    return `## License
       ${license} license. Click the license badge at the top for license details.`
-    }
+  }
 };
 
-function contents (license) {
+function contents(license) {
   if (license === "NONE") {
     return `-[Description](#description) 
     - [Installation](#installation)
@@ -74,27 +74,27 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-  ##Table of Contents
+## Table of Contents
   ${contents(data.license)}
 
-  ## Description
+## Description
   ${data.description}
   
-  ##Installation
+## Installation
   ${data.installation}
   
-  ##Usage
+## Usage
   ${data.usage}
   
-  ##Constributing
+## Contributing
   ${data.contributing}
   
-  ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
   
-  ##Tests
+## Tests
   ${data.tests}
   
-  ##Questions
+## Questions
   Contact information for any questions regarding this project:
   Github - https://github.com/${data.username}
   Email - ${data.email}`;
