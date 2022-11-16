@@ -25,7 +25,7 @@
   
 ## Usage
   Click the link below for a demonstration video showing how to use this application:
-  ![Demo](https://watch.screencastify.com/v/4ZI3UmQeiplTMibPUCPp)
+  [Demonstration Video](https://watch.screencastify.com/v/4ZI3UmQeiplTMibPUCPp)
   
 ## Contributing
   Built by Jessica Oboh.
