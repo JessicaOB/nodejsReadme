@@ -13,24 +13,28 @@
 * [Questions](#questions)
 
 ## Description
-  d
+  This is a command line application written using node.js. It prompts a user with questions and generates a professional readme file for their project. The generated file includes a badge for the license used, which links to the license details on opensource.org. It also includes a title and table of contents, with sections for a description, installation, usage, contributors, tests, and questions.
   
 ## Installation
-  d
+  The following programs are required for the use of this program:
+  * vscode
+  * gitbash
+  * node.js
+  
+  To finish setting up, first clone this repository, then open it in vscode. From within vscode open the terminal and run npm install to insall the required packages for using the application. 
   
 ## Usage
-  d
+  Click the link below for a demonstration video showing how to use this application:
+  ![Demo](https://watch.screencastify.com/v/4ZI3UmQeiplTMibPUCPp)
   
 ## Contributing
-  d
+  Built by Jessica Oboh.
+  Thank you to University of Arizona Bootcamp for providing this challenge.
   
 ## License
   MIT license. Click the license badge at the top for license details.
   
-## Tests
-  d
-  
 ## Questions
   Contact information for any questions regarding this project:  
-  Github - https://github.com/d  
-  Email - d
+  Github - https://github.com/JessicaOB
+  Email - jessb216@gmail.com
