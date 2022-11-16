@@ -40,44 +40,33 @@ function renderLicenseSection(license) {
   }
   else if (license === "OTHER") {
     return `## License
-      Enter information regarding the license you used here.`
+  Enter information regarding the license you used here.`
   }
   else {
     return `## License
-      ${license} license. Click the license badge at the top for license details.`
+  ${license} license. Click the license badge at the top for license details.`
   }
 };
 
 function contents(license) {
   if (license === "NONE") {
-    return `  
-    * [Description](#description)  
-
-    * [Installation](#installation)  
-
-    * [Usage](#usage)  
-
-    * [Contributing](#contributing)  
-
-    * [Tests](#tests)  
-
-    * [Questions](#questions)  `
+    return `
+* [Description](#description)
+* [Installation](#installation
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)`
   }
   else {
-    return `  
-    * [Description](#description)  
-
-    * [Installation](#installation)  
-
-    * [Usage](#usage)  
-
-    * [Contributing](#contributing)  
-
-    * [License](#license)  
-
-    * [Tests](#tests)  
-
-    * [Questions](#questions)`
+    return `
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)`
   }
 };
 
