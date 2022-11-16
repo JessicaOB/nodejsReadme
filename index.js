@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const { writeFile } = require('fs').promises;
 // TODO: Create an array of questions for user input
+// validate ensures the user enters an answer to the question
 const questions = [
     {
         type: "input",
@@ -82,6 +83,7 @@ const questions = [
         }
     },
 ];
+//function for asking the questions
 const askQuestions = () => {
     return inquirer.prompt(questions)
 };

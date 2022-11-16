@@ -47,7 +47,7 @@ function renderLicenseSection(license) {
   ${license} license. Click the license badge at the top for license details.`
   }
 };
-
+//This function generates the table of contents, with or without the license section, depending upon the user input
 function contents(license) {
   if (license === "NONE") {
     return `
