@@ -3,33 +3,31 @@
   [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg?style=plastic)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-  -[Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Questions](#questions)
+  *[Description](#description)  
+    * [Installation](#installation)  
+    * [Usage](#usage)  
+    * [Contributing](#contributing)  
+    * [License](#license)  
+    * [Tests](#tests)  
+    * [Questions](#questions)
 
 ## Description
-  A readme file generator
+  here
   
 ## Installation
-  install
+  here
   
 ## Usage
-  node index.js
+  here
   
 ## Contributing
-  Jessica Oboh
+  here
   
 ## License
       MIT license. Click the license badge at the top for license details.
   
 ## Tests
-  no
+  here
   
 ## Questions
-  Contact information for any questions regarding this project:
-  Github - https://github.com/JessicaOB
-  Email - jessb216@gmail.com
+  Contact information for any questions regarding this project:  Github - https://github.com/here  Email - here

@@ -50,21 +50,21 @@ function renderLicenseSection(license) {
 
 function contents(license) {
   if (license === "NONE") {
-    return `-[Description](#description) 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)`
+    return `*[Description](#description)  
+    * [Installation](#installation)  
+    * [Usage](#usage)  
+    * [Contributing](#contributing)  
+    * [Tests](#tests)  
+    * [Questions](#questions)  `
   }
   else {
-    return `-[Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Questions](#questions)`
+    return `*[Description](#description)  
+    * [Installation](#installation)  
+    * [Usage](#usage)  
+    * [Contributing](#contributing)  
+    * [License](#license)  
+    * [Tests](#tests)  
+    * [Questions](#questions)`
   }
 };
 
@@ -95,8 +95,8 @@ ${renderLicenseSection(data.license)}
   ${data.tests}
   
 ## Questions
-  Contact information for any questions regarding this project:
-  Github - https://github.com/${data.username}
+  Contact information for any questions regarding this project:\
+  Github - https://github.com/${data.username}\
   Email - ${data.email}`;
 };
 
